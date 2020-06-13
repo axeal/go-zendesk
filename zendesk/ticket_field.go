@@ -12,6 +12,7 @@ type TicketField struct {
 	Description     *string    `json:"description,omitempty"`
 	Position        *int64     `json:"position,omitempty"`
 	Active          *bool      `json:"active,omitempty"`
+	Required        *bool      `json:"required,omitempty"`
 	VisibleInPortal *bool      `json:"visible_in_portal,omitempty"`
 	CreatedAt       *time.Time `json:"created_at,omitempty"`
 	UpdatedAt       *time.Time `json:"updated_at,omitempty"`
